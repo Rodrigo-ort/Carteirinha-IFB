@@ -1,0 +1,106 @@
+*{margin: 0; padding: 0; font-size: 100%; border: none; outline: none; font-weight: 300; box-sizing: border-box}
+
+body{
+    background-color: #000;
+    color: yellow;
+    font-family: 'Exo 2', sans-serif;
+}
+
+
+.navbar-cor{
+    background-color: #373a39;
+}
+
+.navbar-default .navbar-brand {
+    color: yellow;
+}
+
+.navbar-default .navbar-nav>.active>a{ 
+    color: yellow;
+    background-color: #e7e7e7;
+}
+.navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    color: #777;
+    background-color: #e7e7e7;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: yellow;
+}
+
+.img_carteirinha{
+    width: 35%;
+    height: 35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-img-top{
+    width: 40%;
+    height: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: rgb(61, 60, 60);
+    border: 1px solid #ddd;
+    
+}
+
+.img-QR{
+    width: 45%;
+    height: 45%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: rgb(63, 61, 61);
+    border: 1px solid #ddd;
+}
+
+.btn-danger{
+    margin-left: 185px;
+}
+
+img{
+    max-width: 100%;
+}
+
+.bgColor{
+    background-color: #373a39;
+}
+
+.socialIcons a{
+    font-size: 1.7em;
+    color: #000;
+    text-align: center;
+    margin-left: 3%;
+    padding-bottom: 2%;
+}
+
+.container {
+    width: 100%;
+    float: left;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+footer.container.bgColor{
+    width: 100%;
+    text-align: center;
+    padding:3% 4%;
+    box-sizing: border-box;
+}

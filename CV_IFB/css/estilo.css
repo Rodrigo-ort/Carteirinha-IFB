@@ -1,0 +1,105 @@
+*{margin: 0; padding: 0; font-size: 100%; border: none; outline: none; font-weight: 300; box-sizing: border-box}
+
+body{
+    font-family: 'Exo 2', sans-serif;
+}
+
+.navbar-cor{
+    background-color: #00e676;
+}
+
+.navbar-default .navbar-marca {
+    color: #000;
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+    margin-left: 20px;
+}
+
+.navbar-default .navbar-nav>.active>a{ 
+    color: #000;
+    background-color: #e7e7e7;
+}
+.navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    color: #777;
+    background-color: #e7e7e7;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #000;
+}
+
+div.navbar-header {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.img_carteirinha{
+    width: 55%;
+    height: 55%;
+    display: block;
+    padding: 3%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-img-top{
+    width: 35%;
+    height: 35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-QR{
+    width: 45%;
+    height: 45%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.btn-danger{
+    margin-left: 25%;
+}
+
+img{
+    max-width: 100%;
+}
+
+.bgColor{
+    background-color: #00e676;
+}
+
+.socialIcons a{
+    font-size: 1.7em;
+    color: #000;
+    text-align: center;
+    margin-left: 3%;
+    padding-bottom: 2%;
+}
+
+.container {
+    width: 100%;
+    float: left;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+footer.container.bgColor{
+    width: 100%;
+    text-align: center;
+    padding:3% 4%;
+    box-sizing: border-box;
+}
